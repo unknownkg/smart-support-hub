@@ -1,0 +1,458 @@
+[
+  {
+    "chartErrorVisible": false,
+    "charts": [
+      {
+        "height": 286,
+        "id": "priority-chart",
+        "width": 477
+      },
+      {
+        "height": 286,
+        "id": "request-chart",
+        "width": 421
+      }
+    ],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Панель управления",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Внедрения",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Инциденты",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Заявки на сопровождение",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Релизы и версии",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [
+      {
+        "height": 286,
+        "id": "priority-chart",
+        "width": 477
+      },
+      {
+        "height": 286,
+        "id": "request-chart",
+        "width": 421
+      }
+    ],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Панель управления",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Внедрения",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Инциденты",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Заявки на сопровождение",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 151.796875,
+    "overflow": false,
+    "page": "Релизы и версии",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 1366
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [
+      {
+        "height": 286,
+        "id": "priority-chart",
+        "width": 655
+      },
+      {
+        "height": 286,
+        "id": "request-chart",
+        "width": 655
+      }
+    ],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Панель управления",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Внедрения",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Инциденты",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Заявки на сопровождение",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Релизы и версии",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [
+      {
+        "height": 286,
+        "id": "priority-chart",
+        "width": 655
+      },
+      {
+        "height": 286,
+        "id": "request-chart",
+        "width": 655
+      }
+    ],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Панель управления",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Внедрения",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Инциденты",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Заявки на сопровождение",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 145.796875,
+    "overflow": false,
+    "page": "Релизы и версии",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 768
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [
+      {
+        "height": 260,
+        "id": "priority-chart",
+        "width": 305
+      },
+      {
+        "height": 260,
+        "id": "request-chart",
+        "width": 305
+      }
+    ],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Панель управления",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Внедрения",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Инциденты",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Заявки на сопровождение",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Релизы и версии",
+    "theme": "light",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [
+      {
+        "height": 260,
+        "id": "priority-chart",
+        "width": 305
+      },
+      {
+        "height": 260,
+        "id": "request-chart",
+        "width": 305
+      }
+    ],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Панель управления",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Внедрения",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Инциденты",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Заявки на сопровождение",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 390
+  },
+  {
+    "chartErrorVisible": false,
+    "charts": [],
+    "fonts": true,
+    "footerFits": true,
+    "formOverflow": false,
+    "headingTop": 142.140625,
+    "overflow": false,
+    "page": "Релизы и версии",
+    "theme": "dark",
+    "version": "v1.1.0",
+    "width": 390
+  }
+]
