@@ -42,7 +42,7 @@ export function initUI(page) {
     link.append(symbol,el('span',label)); nav.append(link);
   }
   sidebar.append(nav);
-  const footer = el('div',undefined,'sidebar-footer'); footer.append(el('span','v1.0.0','local-label'),el('p','Учебные данные\nХранятся в этом браузере')); sidebar.append(footer);
+  const footer = el('div',undefined,'sidebar-footer'); footer.append(el('span','v1.1.0','local-label'),el('p','Учебные данные\nХранятся в этом браузере')); sidebar.append(footer);
   $('#topbar').innerHTML = '<button id="menu-button" class="icon-button mobile-toggle" aria-label="Открыть меню" aria-controls="sidebar" aria-expanded="false">☰</button><div class="breadcrumbs">Рабочее пространство <span>/</span> <strong></strong></div><div class="topbar-actions"><span class="version-label">Обслуживаемый продукт <b id="product-version"></b></span><button id="theme-button" class="icon-button" type="button"></button></div>';
   $('.breadcrumbs strong').textContent = pages.find(([id]) => id === page)[1]; updateVersion();
   const menu = $('#menu-button');
