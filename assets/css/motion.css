@@ -1,0 +1,21 @@
+/* Короткие отклики DiamGreen; рабочие данные всегда остаются видимыми. */
+.ssh-app :is(.button,.icon-button,.nav-link,.kpi,.field input,.field select,.field textarea) {
+  transition: background var(--motion-fast) ease, color var(--motion-fast) ease,
+    border-color var(--motion-fast) ease, box-shadow var(--motion-fast) ease,
+    transform var(--motion-fast) var(--motion-curve);
+}
+.ssh-app .sidebar { transition: transform var(--motion-fast) var(--motion-curve), visibility var(--motion-fast); }
+@media (hover:hover) and (pointer:fine) {
+  .ssh-app .button:not(:disabled):hover { transform: translateY(-2px); }
+  .ssh-app .kpi:hover { border-color:var(--accent-line); box-shadow:var(--shadow); }
+}
+.ssh-app .button:not(:disabled):active { transform:translateY(0) scale(.985); }
+@media (prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  .ssh-app, .ssh-app *, .ssh-app *::before, .ssh-app *::after {
+    animation:none!important;
+    transition:none!important;
+    scroll-behavior:auto!important;
+  }
+  .ssh-app .button:not(:disabled):is(:hover,:active) { transform:none!important; }
+}
