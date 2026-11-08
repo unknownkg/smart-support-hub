@@ -9,8 +9,13 @@ export function el(tag, text, className) {
   return node;
 }
 export function badge(text, value) { return el('span',text,`badge badge-${value}`); }
+export function localDateValue(date = new Date()) {
+  return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+}
 export function dateText(value, time = false) {
-  return value ? new Date(value).toLocaleString('ru-RU', time ? {dateStyle:'short',timeStyle:'short'} : {dateStyle:'medium'}) : '—';
+  if (!value) return '—';
+  const date = /^\d{4}-\d{2}-\d{2}$/.test(value) ? new Date(`${value}T00:00:00`) : new Date(value);
+  return date.toLocaleString('ru-RU', time ? {dateStyle:'short',timeStyle:'short'} : {dateStyle:'medium'});
 }
 const pages = [['index','Панель','◫'],['deployments','Внедрения','↗'],['incidents','Инциденты','!'],['maintenance','Заявки','≡'],['releases','Релизы','◇']];
 const navIcons = {

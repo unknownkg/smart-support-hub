@@ -1,4 +1,4 @@
-import {initUI,store,$,el,names,fillSelect,bindForm,dateText,badge} from './ui.js';
+import {initUI,store,$,el,names,fillSelect,bindForm,dateText,badge,localDateValue} from './ui.js';
 import {getNextVersion,latestVersion} from './core.js';
 initUI('releases');fillSelect($('#level'),names.level);fillSelect($('#next-level'),names.level);
 bindForm('releases',v=>({...v,changes:v.changes.split('\n').map(s=>s.trim()).filter(Boolean)}));
@@ -14,5 +14,5 @@ function syncVersion(){
   $('#current-version').value=latest==='—'?'v0.0.0':latest;
   calculate();
 }
-$('#date').defaultValue=new Date().toISOString().slice(0,10);
+$('#date').defaultValue=localDateValue();
 window.addEventListener('datachange',()=>{render();syncVersion();});render();syncVersion();
