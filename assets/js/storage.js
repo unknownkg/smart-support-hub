@@ -44,6 +44,8 @@ export function createStore(adapter) {
       this.data = next;
     },
     update(mutator) {
+      this.loadData();
+      if (this.blocked) throw new Error(this.warning);
       const next = structuredClone(this.data);
       mutator(next); this.saveData(next); return this.data;
     }

@@ -26,3 +26,22 @@ test('Ошибка записи не меняет состояние; невер
   const data = initialData(); data.incidents[0].id = data.incidents[1].id;
   assert.throws(() => storage.validateData(data));
 });
+
+test('Устаревший экземпляр сохраняет новые записи другого экземпляра (#1)', () => {
+  const adapter = memory();
+  const first = storage.createStore(adapter), second = storage.createStore(adapter);
+  first.loadData(); second.loadData();
+  first.update(data => data.requests.push({...data.requests[0],id:'REQ-OTHER-TAB',title:'Новая заявка в другой вкладке'}));
+  const done = second.data.deployments[0].done;
+  second.update(data => {data.deployments[0].done++;});
+  const saved = storage.createStore(adapter).loadData();
+  assert.ok(saved.requests.some(item => item.id === 'REQ-OTHER-TAB'));
+  assert.equal(saved.deployments[0].done, done + 1);
+});
+
+test('Повреждение после загрузки блокирует запись и сохраняет исходную строку (#1)', () => {
+  const adapter = memory(), store = storage.createStore(adapter);
+  store.loadData(); adapter.setItem(storage.DATA_KEY,'{damaged-after-load');
+  assert.throws(() => store.update(data => data.requests.pop()));
+  assert.equal(adapter.getItem(storage.DATA_KEY),'{damaged-after-load');
+});
