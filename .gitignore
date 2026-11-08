@@ -1,0 +1,35 @@
+# Служебный комплект подготовки не включать в публичный репозиторий
+/AGENTS.md
+/FIRST_MESSAGE_FOR_CODEX.txt
+/START_HERE.md
+/MANIFEST.json
+/references/
+/requirements/
+/design/
+/workflow/
+
+# Локальная среда и конфиденциальные файлы
+.env
+.env.*
+*.log
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+
+# Исторические протоколы разработки и промежуточные снимки остаются локально.
+/docs/LOCAL_QA.md
+/docs/VISUAL_UPDATE_QA.md
+/docs/VISUAL_AUDIT.md
+/docs/evidence/
+
+# Временные файлы и кеши инструментов.
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+*.zip
+/tmp/
+/.superpowers/
+/.agents/
+/.codex/
